@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Shopigo. All rights reserved.
+ * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <swissposteconomy>
+                <active>0</active>
+                <title>Swiss Post</title>
+                <name>PostPac Economy</name>
+                <type>O</type>
+                <handling_type>F</handling_type>
+                <tracking_url><![CDATA[https://www.post.ch/swisspost-tracking?formattedParcelCodes=[code]]]></tracking_url>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+                <showmethod>0</showmethod>
+                <model>Shopigo\SwissPost\Model\Carrier\Economy</model>
+            </swissposteconomy>
+            <swisspostpriority>
+                <active>0</active>
+                <title>Swiss Post</title>
+                <name>PostPac Priority</name>
+                <type>O</type>
+                <handling_type>F</handling_type>
+                <tracking_url><![CDATA[https://www.post.ch/swisspost-tracking?formattedParcelCodes=[code]]]></tracking_url>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+                <showmethod>0</showmethod>
+                <model>Shopigo\SwissPost\Model\Carrier\Priority</model>
+            </swisspostpriority>
+            <swisspostexpress>
+                <active>0</active>
+                <title>Swiss Post</title>
+                <name>PostPac Express</name>
+                <type>O</type>
+                <handling_type>F</handling_type>
+                <tracking_url><![CDATA[https://www.post.ch/swisspost-tracking?formattedParcelCodes=[code]]]></tracking_url>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+                <showmethod>0</showmethod>
+                <model>Shopigo\SwissPost\Model\Carrier\Express</model>
+            </swisspostexpress>
+        </carriers>
+    </default>
+</config>

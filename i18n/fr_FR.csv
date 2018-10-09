@@ -1,0 +1,6 @@
+"By default https://www.post.ch/swisspost-tracking?formattedParcelCodes=[code]. You can use [code] as placeholder for the package code.","Par défaut https://www.post.ch/swisspost-tracking?formattedParcelCodes=[code]. ""[code]"" peut être utilisé afin d'indiquer l'emplacement du numéro du colis."
+"Swiss Post","La Poste Suisse"
+"Swiss Post - Economy","Swiss Post - Economy"
+"Swiss Post - Express","Swiss Post - Express"
+"Swiss Post - Priority","Swiss Post - Priority"
+"Tracking URL","URL de suivi du colis"

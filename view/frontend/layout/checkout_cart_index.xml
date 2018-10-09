@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Shopigo. All rights reserved.
+ * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="checkout.cart.shipping">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="components" xsi:type="array">
+                        <item name="summary-block-config" xsi:type="array">
+                            <item name="children" xsi:type="array">
+                                <item name="shipping-rates-validation" xsi:type="array">
+                                    <item name="children" xsi:type="array">
+                                        <item name="swissposteconomy-rates-validation" xsi:type="array">
+                                            <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/economy</item>
+                                        </item>
+                                        <item name="swisspostpriority-rates-validation" xsi:type="array">
+                                            <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/priority</item>
+                                        </item>
+                                        <item name="swisspostexpress-rates-validation" xsi:type="array">
+                                            <item name="component" xsi:type="string">Shopigo_SwissPost/js/view/shipping-rates-validation/express</item>
+                                        </item>
+                                    </item>
+                                </item>
+                            </item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
