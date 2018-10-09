@@ -2,11 +2,10 @@
 
 # Magento 2 Swiss Post extension by [Shopigo](https://www.shopigo.ch)
 
-DESCRIPTION
-
-BLOG LINK
-
-SCREENSHOT
+This extension makes Swiss Post shipping in Magento smart and easy, by implementing three new shipping methods:
+- SwissPost Economy
+- SwissPost Priority
+- SwissPost Express
 
 ## Requirements
 
@@ -17,7 +16,7 @@ Magento Open Source Edition 2.2.x.
 ## Method 1 - Installing via composer
 
 - Switch to your Magento project root
-- Run `composer require shopigo/magento2-extension-swiss-post=dev-master`
+- Run `composer require shopigo/magento2-extension-swiss-post`
 
 ## Method 2 - Installing using archive
 
@@ -39,7 +38,33 @@ php bin/magento setup:static-content:deploy
 
 ## How to use it
 
-TODO
+- Log into your Magento back-office
+- Go to the menu "Stores > Configuration > Sales > Shipping Methods"
+- Expand the section "Swiss Post – Economy", "Swiss Post – Priority" or "Swiss Post – Express"
+- Set the parameter "Enabled" to "Yes"
+- Flush Magento caches from the menu "System > Tools > Cache Management"
+
+## Screenshots
+
+### Shipping methods in the checkout page
+
+![Shipping methods in the checkout page](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-checkout.jpg)
+
+### Add a tracking number
+
+![Add a tracking number](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-shipping-add-track.jpg)
+
+### Track a shipment
+
+![Track a shipment](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-shipment.jpg)
+
+### Parcel tracking
+
+![Parcel tracking](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-tracking.jpg)
+
+### Settings
+
+![Settings](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-settings.jpg)
 
 ## Support
 
@@ -49,9 +74,14 @@ If you have any issues, open a bug report in GitHub's [issue tracker](https://gi
 
 Please contact us to get a quote https://www.shopigo.ch/contact
 
+## Change logs
+
+**Version 1.0.0** (2018-10-09)
+- First version
+
 ## License
 
 The code is licensed under [Open Software License ("OSL") v. 3.0](http://opensource.org/licenses/osl-3.0.php).
 
-Enjoy!<br/>
+<br/>Enjoy!<br/>
 [Shopigo](https://www.shopigo.ch)

@@ -10,7 +10,7 @@
         <carriers>
             <swissposteconomy>
                 <active>0</active>
-                <title>SwissPost</title>
+                <title>Swiss Post</title>
                 <name>PostPac Economy</name>
                 <type>O</type>
                 <handling_type>F</handling_type>
@@ -22,7 +22,7 @@
             </swissposteconomy>
             <swisspostpriority>
                 <active>0</active>
-                <title>SwissPost</title>
+                <title>Swiss Post</title>
                 <name>PostPac Priority</name>
                 <type>O</type>
                 <handling_type>F</handling_type>
@@ -34,7 +34,7 @@
             </swisspostpriority>
             <swisspostexpress>
                 <active>0</active>
-                <title>SwissPost</title>
+                <title>Swiss Post</title>
                 <name>PostPac Express</name>
                 <type>O</type>
                 <handling_type>F</handling_type>

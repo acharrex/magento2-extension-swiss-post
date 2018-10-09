@@ -1,8 +1,8 @@
 {
   "name": "shopigo/magento2-extension-swiss-post",
-  "description": "Swiss Post extension for Magento 2",
+  "description": "Magento 2 Swiss Post extension by Shopigo",
   "require": {
-    "php": "~7.0.13|~7.1.0",
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
     "magento/module-quote": "101.0.*",
     "magento/module-shipping": "100.2.*",
     "magento/framework": "101.0.*"

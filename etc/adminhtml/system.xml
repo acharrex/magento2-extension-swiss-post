@@ -9,7 +9,7 @@
     <system>
         <section id="carriers">
             <group id="swissposteconomy" translate="label" type="text" sortOrder="150" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>SwissPost - Economy</label>
+                <label>Swiss Post - Economy</label>
                 <field id="active" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
                     <label>Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -66,7 +66,7 @@
                 </field>
             </group>
             <group id="swisspostpriority" translate="label" type="text" sortOrder="155" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>SwissPost - Priority</label>
+                <label>Swiss Post - Priority</label>
                 <field id="active" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
                     <label>Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -123,7 +123,7 @@
                 </field>
             </group>
             <group id="swisspostexpress" translate="label" type="text" sortOrder="160" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>SwissPost - Express</label>
+                <label>Swiss Post - Express</label>
                 <field id="active" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
                     <label>Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
