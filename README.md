@@ -1,6 +1,6 @@
-[![Shopigo](https://www.shopigo.ch/wp-content/uploads/2018/08/github-shopigo-logo.png)](https://www.shopigo.ch)
+![Shopigo](https://i.imgur.com/7Ctkn7X.png)
 
-# Magento 2 Swiss Post extension by [Shopigo](https://www.shopigo.ch)
+# Magento 2 Swiss Post extension by Shopigo
 
 This extension makes Swiss Post shipping in Magento smart and easy, by implementing three new shipping methods:
 - SwissPost Economy
@@ -9,7 +9,7 @@ This extension makes Swiss Post shipping in Magento smart and easy, by implement
 
 ## Requirements
 
-Magento Open Source Edition 2.2.x.
+Magento Open Source Edition 2.2 or 2.3
 
 ## Installation
 
@@ -20,7 +20,7 @@ Magento Open Source Edition 2.2.x.
 
 ## Method 2 - Installing using archive
 
-- Download [ZIP Archive](https://github.com/shopigo/magento2-extension-swiss-post/archive/master.zip)
+- Download [ZIP Archive](https://github.com/acharrex/magento2-extension-swiss-post/archive/master.zip)
 - Switch to your Magento project root
 - Create folder `app/code/Shopigo/SwissPost`
 - Extract zip into path
@@ -48,29 +48,32 @@ php bin/magento setup:static-content:deploy
 
 ### Shipping methods in the checkout page
 
-![Shipping methods in the checkout page](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-checkout.jpg)
+![Shipping methods in the checkout page](https://i.imgur.com/hWeZ8ax.jpg)
 
 ### Add a tracking number
 
-![Add a tracking number](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-shipping-add-track.jpg)
+![Add a tracking number](https://i.imgur.com/zEna74U.jpg)
 
 ### Track a shipment
 
-![Track a shipment](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-shipment.jpg)
+![Track a shipment](https://i.imgur.com/3LLw45c.jpg)
 
 ### Parcel tracking
 
-![Parcel tracking](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-tracking.jpg)
+![Parcel tracking](https://i.imgur.com/d0VTECR.jpg)
 
 ### Settings
 
-![Settings](https://www.shopigo.ch/wp-content/uploads/2018/10/github-extension-swiss-post-settings.jpg)
+![Settings](https://i.imgur.com/kMNQloO.jpg)
 
 ## Support
 
-If you have any issues, open a bug report in GitHub's [issue tracker](https://github.com/shopigo/magento2-extension-swiss-post/issues).
+If you have any issues, open a bug report in GitHub's [issue tracker](https://github.com/acharrex/magento2-extension-swiss-post/issues).
 
 ## Change logs
+
+**Version 1.0.1** (2019-02-07)
+- Fix composer.json for Magento 2.3
 
 **Version 1.0.0** (2018-10-09)
 - First version
@@ -79,5 +82,4 @@ If you have any issues, open a bug report in GitHub's [issue tracker](https://gi
 
 The code is licensed under [Open Software License ("OSL") v. 3.0](http://opensource.org/licenses/osl-3.0.php).
 
-<br/>Enjoy!<br/>
-[Shopigo](https://www.shopigo.ch)
+<br/>Enjoy!
